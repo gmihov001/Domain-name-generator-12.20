@@ -5,7 +5,7 @@ import "./style.css";
 import "./assets/img/rigo-baby.jpg";
 import "./assets/img/4geeks.ico";
 
-window.onload = function() {
+window.searchDomains = function searchDomains() {
   var pronoun = ["the", "our", "your"];
   var adj = ["great", "big", "amazing"];
   var noun = ["jogger", "racoon", "bloop"];
@@ -27,3 +27,5 @@ window.onload = function() {
     }
   }
 };
+
+window.onload = function() {};

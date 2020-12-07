@@ -16,12 +16,12 @@ window.searchDomains = function searchDomains() {
       for (var k = 0; k < noun.length; k++) {
         for (var l = 0; l < noun.length; l++) {
           document.querySelector("#domain_name").innerHTML +=
-            "<li> www." +
+            "<li><h3> www." +
             pronoun[i] +
             adj[j] +
             noun[k] +
             extension[l] +
-            " </li>";
+            " </h3></li>";
         }
       }
     }

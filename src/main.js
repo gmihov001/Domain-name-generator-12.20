@@ -7,8 +7,8 @@ import "./assets/img/4geeks.ico";
 
 window.searchDomains = function searchDomains() {
   var pronoun = ["the", "our", "your"];
-  var adj = ["great", "big", "amazing"];
-  var noun = ["jogger", "racoon", "bloop"];
+  var adj = ["great", "big", "amazing", "enticing"];
+  var noun = ["jogger", "racoon", "bloop", "poop"];
   var extension = [".com", ".net", ".us", ".io"];
 
   for (var i = 0; i < pronoun.length; i++) {

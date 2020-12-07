@@ -16,7 +16,7 @@ window.searchDomains = function searchDomains() {
       for (var k = 0; k < noun.length; k++) {
         for (var l = 0; l < noun.length; l++) {
           document.querySelector("#domain_name").innerHTML +=
-            "<li><h3> www." +
+            '<li class="py-2"><h3> www.' +
             pronoun[i] +
             adj[j] +
             noun[k] +
